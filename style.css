@@ -35,7 +35,7 @@
     color: yellow;
   }
 
-  .header h1{
+/*  .header h1{
     display: inline;
     background: linear-gradient(to right, #d03093 0%, #2269c5 100%);
     
@@ -45,16 +45,29 @@
     
     color: transparent;
     
+  } */
+
+.header span
+  {
+    -webkit-background-clip: text;
+    background-clip: text;
+    
+    color: transparent;
   }
 
-  .header h1{
-    display: inline;
+  
+
+  .g
+  {
+      background: linear-gradient(to right, #d03093 0%, #2269c5 100%); 
   }
 
-  .header h1::after{
-  content: "\A\A";
-  white-space: pre;
+  .w
+  {
+    background: black;
   }
+
+  
   
   /* Style the top navigation bar */
   .navbar {
