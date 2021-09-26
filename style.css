@@ -36,6 +36,7 @@
   }
 
   .header h1{
+      display: inline;
     background: linear-gradient(to right, #d03093 0%, #2269c5 100%);
     
     background-clip: text;
