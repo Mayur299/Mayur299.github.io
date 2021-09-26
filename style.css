@@ -36,14 +36,24 @@
   }
 
   .header h1{
-      display: inline;
+    display: inline;
     background: linear-gradient(to right, #d03093 0%, #2269c5 100%);
     
     background-clip: text;
-      -webkit-background-clip:text;
     
-   color: transparent;
+    -webkit-text-fill-color: transparent;
     
+    color: transparent;
+    
+  }
+
+  .header h1{
+    display: inline;
+  }
+
+  .header h1::after{
+  content: "\A\A";
+  white-space: pre;
   }
   
   /* Style the top navigation bar */
